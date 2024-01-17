@@ -11,7 +11,7 @@ This section describes basic concepts that will help you familiarize yourself wi
 <a name="loio716314af19ea4213aef9790b4331acb0__section_y2h_zjh_cmb"/>
 
 ## SAP BTP cockpit
-
+ 
 You can perform the following operations through SAP BTP cockpit:
 
 -   Create, update \(edit\), and delete credentials
