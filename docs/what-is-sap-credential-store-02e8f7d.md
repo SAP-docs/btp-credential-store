@@ -2,7 +2,7 @@
 
 # What Is SAP Credential Store?
 
-Learn more about SAP Credential Store service on SAP Business Technology Platform \(SAP BTP\). Store and retrieve credentials such as passwords, keys and keyrings. 
+Store and retrieve credentials such as passwords, keys and keyrings. 
 
 SAP Credential Store service provides a repository for passwords, keys and keyrings for applications that are running on SAP BTP. It enables the applications to retrieve credentials and use them for authentication to external services, or to perform cryptographic operations and TLS communication. SAP Credential Store is exposed to the applications via a REST API.
 
