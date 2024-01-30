@@ -8,6 +8,34 @@ To check the latest release notes for SAP Credential Store, go to: [What's New f
 
 
 
+<a name="loio6a37641afec9497bb76e1063ee73f536__section_ayc_42n_g1c"/>
+
+## 29 January 2024
+
+
+<table>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top" colspan="2">
+
+**New**
+
+**GitHub Integration**
+
+You can now provide feedback on the SAP Credential Store documentation using GitHub and earn credits.
+
+To learn how, see blog post: [Want to Provide Feedback and More? Co-shape the "Help" of SAP Credential Store!](https://community.sap.com/t5/technology-blogs-by-sap/want-to-provide-feedback-and-more-co-shape-the-help-of-sap-credential-store/ba-p/13584987)
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loio6a37641afec9497bb76e1063ee73f536__section_omd_j1f_hzb"/>
 
 ## 6 November 2023
