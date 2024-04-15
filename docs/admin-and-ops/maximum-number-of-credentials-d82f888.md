@@ -43,7 +43,6 @@ Follow the steps below.
     > 
     > {
     > 	"notifications": {
-    > 	"status": "enabled",
     > 	"credentials": {
     > 		"number-of-credentials-greater-than": 150
     >     }

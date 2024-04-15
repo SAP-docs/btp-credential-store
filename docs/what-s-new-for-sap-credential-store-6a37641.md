@@ -24,9 +24,9 @@ To check the latest release notes for SAP Credential Store, go to: [What's New f
 
 **New**
 
-**GitHub Integration**
+**Feedback on Documentation**
 
-You can now provide feedback on the SAP Credential Store documentation using GitHub and earn credits.
+You can now provide feedback on the SAP Credential Store documentation using *GitHub* and earn credits. Also, you can now add comments directly on *SAP Help Portal*.
 
 To learn how, see blog post: [Want to Provide Feedback and More? Co-shape the "Help" of SAP Credential Store!](https://community.sap.com/t5/technology-blogs-by-sap/want-to-provide-feedback-and-more-co-shape-the-help-of-sap-credential-store/ba-p/13584987)
 
@@ -72,7 +72,7 @@ SAP Credential Store now provides a possibility to restore credentials from a ba
 
 **Changed**
 
-**SAP Alert Notification events**
+**SAP Alert Notification Events**
 
 You can now receive notifications for SAP Credential Store service instances for the following additional events:
 
@@ -133,7 +133,7 @@ You can now extend the validity of expiring service bindings with up to 3 days. 
 
 **New**
 
-**SAP Alert Notification events**
+**SAP Alert Notification Events**
 
 There is an integration now between the SAP Credential Store and SAP Alert Notification services, which allows you to receive alert notifications for the following events:
 
@@ -166,7 +166,7 @@ To learn more, see: [Set up SAP Alert Notification Events](admin-and-ops/set-up-
 
 **Changed**
 
-**Modified security recommendations**
+**Modified Security Recommendations**
 
 Some of the security recommendations for SAP Credential Store have been updated, as follows:
 
@@ -257,7 +257,7 @@ To learn more, see: [Customer-Controlled Encryption Keys](security/customer-cont
 
 **Changed**
 
-**Default authentication type**
+**Default Authentication Type**
 
 For service plans *standard*, *trial*, and *free*, the default authentication is **mtls**. See: [Authentication](rest-api/authentication-39175ca.md)
 
@@ -277,7 +277,7 @@ For service plans *standard*, *trial*, and *free*, the default authentication is
 
 **Changed**
 
-**Validity for bindings and service keys**
+**Validity for Bindings and Service Keys**
 
 For newly created service bindings аnd service keys, the default validity is **60** days. This applies to service instances with all types of authentication \(`basic`, `mtls`, `oauth:key`, and `oauth:mtls`\). See:
 
@@ -340,7 +340,7 @@ To learn more, see: [Get an Account on SAP BTP to Try Out Free Tier Service Plan
 
 **New**
 
-**Authentication types**
+**Authentication Types**
 
 Apart from Basic authentication, SAP Credential Store now supports also:
 
@@ -366,7 +366,7 @@ To learn more, see: [Authentication](rest-api/authentication-39175ca.md)
 
 **Changed**
 
-**Validity for bindings and service keys**
+**Validity for Bindings and Service Keys**
 
 Previously, all bindings and service keys were created with infinite validity. For newly created ones, their default validity is as follows:
 
@@ -423,7 +423,7 @@ SAP Credential Store now offers a third type of credentials - *keyrings*. These 
 
 **New**
 
-**Sharing service instances in the Cockpit**
+**Sharing Service Instances in the Cockpit**
 
 You can now share and unshare service instances in the SAP BTP cockpit. To learn how, see: [Sharing Service Instances - Cockpit](admin-and-ops/sharing-service-instances-cockpit-1d69c12.md)
 
@@ -449,7 +449,7 @@ You can now share and unshare service instances in the SAP BTP cockpit. To learn
 
 **New**
 
-**Free service plan**
+**Free Service Plan**
 
 SAP Credential Store now offers a new free tier experience that enables you to:
 

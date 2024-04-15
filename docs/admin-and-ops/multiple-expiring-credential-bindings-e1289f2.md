@@ -45,7 +45,6 @@ Follow the steps below.
     > 
     > {
     > 	"notifications": {
-    > 	"status": "enabled",
     > 	"bindings": {
     > 		"expiration": {
     > 			"remaining-days-less-than": 10

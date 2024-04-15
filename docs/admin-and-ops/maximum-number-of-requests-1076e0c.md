@@ -46,7 +46,6 @@ Follow the steps below.
     > 
     > {
     > 	"notifications": {
-    > 	"status": "enabled",
     > 	"requests": {
     > 		"number-of-requests-greater-than": 100
     >      }

@@ -46,7 +46,6 @@ Follow the steps below.
     > 
     > {
     > 	"notifications": {
-    > 	"status": "enabled",
     > 	"storage": {
     > 		"used-storage-in-mb-greater-than": 5
     >     }

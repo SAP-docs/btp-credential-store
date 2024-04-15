@@ -82,17 +82,17 @@ Password
 </td>
 <td valign="top">
 
-<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons"></span></span></span> 
+<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons-V5"></span></span></span> 
 
 </td>
 <td valign="top">
 
-<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons"></span></span></span> 
+<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons-V5"></span></span></span> 
 
 </td>
 <td valign="top">
 
-<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons"></span></span></span> 
+<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons-V5"></span></span></span> 
 
 </td>
 <td valign="top">
@@ -102,7 +102,7 @@ Password
 </td>
 <td valign="top">
 
-<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons"></span></span></span> 
+<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons-V5"></span></span></span> 
 
 </td>
 </tr>
@@ -114,27 +114,27 @@ Key
 </td>
 <td valign="top">
 
-<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons"></span></span></span> 
+<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons-V5"></span></span></span> 
 
 </td>
 <td valign="top">
 
-<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons"></span></span></span> 
+<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons-V5"></span></span></span> 
 
 </td>
 <td valign="top">
 
-<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons"></span></span></span> 
+<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons-V5"></span></span></span> 
 
 </td>
 <td valign="top">
 
-<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons"></span></span></span> 
+<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons-V5"></span></span></span> 
 
 </td>
 <td valign="top">
 
-<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons"></span></span></span> 
+<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons-V5"></span></span></span> 
 
 </td>
 </tr>
@@ -146,17 +146,17 @@ Keyring
 </td>
 <td valign="top">
 
-<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons"></span></span></span> 
+<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons-V5"></span></span></span> 
 
 </td>
 <td valign="top">
 
-<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons"></span></span></span> 
+<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons-V5"></span></span></span> 
 
 </td>
 <td valign="top">
 
-<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons"></span></span></span> 
+<span style="font-size:16px;"><span style="color:#2B7D2B;"><span class="SAP-icons-V5"></span></span></span> 
 
 </td>
 <td valign="top">
