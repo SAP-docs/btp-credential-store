@@ -460,9 +460,6 @@ DELETE
 </tr>
 </table>
 
-> ### Note:  
-> The *cf credstore-read* command will return all the attributes of a credential, but not its value.
-
 
 
 <a name="loio1d7da76133334bc6b2a0bcbb29bcb883__local_encryption"/>
