@@ -12,7 +12,7 @@ This security guide provides important information on how to enable maximum secu
 
 SAP Credential Store provides support for encryption with customer-controlled encryption keys \(CCEK\) by integrating with [SAP Data Custodian Service](https://help.sap.com/docs/SAP_DATA_CUSTODIAN/538dde61cf134c89bda1c31100a6c0e1/bd038e3fd7a3422ebf277acc5f7d9697.html).
 
-To learn more, see: [Customer-Controlled Encryption Keys](customer-controlled-encryption-keys-b46d606.md)
+To learn more, see: [Customer-Managed Keys \(CMK\)](customer-managed-keys-cmk-b46d606.md)
 
 
 

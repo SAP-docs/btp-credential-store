@@ -6,7 +6,7 @@ Applications use SAP Credential Store via a REST API to list, create, read, upda
 
 
 
-The REST API authenticates the applications via basic authentication. For more information, see [Credential Store: REST API](https://api.sap.com/package/CredentialStore?section=Artifacts)
+The REST API authenticates the applications via basic authentication. For more information, see [Credential Store: REST API](https://api.sap.com/package/CredentialStore/rest)
 
 **Related Information**  
 

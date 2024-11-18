@@ -2,9 +2,81 @@
 
 # What's New for SAP Credential Store
 
-To check the latest release notes for SAP Credential Store, go to: [What's New for SAP Credential Store](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=Credential%20Store)
+To check the latest release notes for SAP Credential Store, go to: [What's New for SAP Credential Store](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&amp%3BComponent=Credential%20Store&Valid_as_Of=2022-01-01%3A2050-12-31&Component=Credential%20Store)
 
 \(Optional\) You can change the default date filter \(*From* – *To*\) in order to see an extended or a narrowed range of release notes for SAP Credential Store.
+
+
+
+<a name="loio6a37641afec9497bb76e1063ee73f536__section_hhs_kvg_hdc"/>
+
+## 17 October 2024
+
+
+<table>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top" colspan="2">
+
+**Changed**
+
+**SAP Alert Notification Events**
+
+You can now easily set alert notifications on service instance level from the *Credential Store* user interface, tab *Settings*. See:
+
+-   [Multiple Expiring Credential Bindings](admin-and-ops/multiple-expiring-credential-bindings-e1289f2.md)
+
+-   [Maximum Number of Credential Bindings](admin-and-ops/maximum-number-of-credential-bindings-ff7dd6a.md)
+
+-   [Maximum Number of Credentials](admin-and-ops/maximum-number-of-credentials-d82f888.md)
+
+-   [Maximum Number of Requests](admin-and-ops/maximum-number-of-requests-1076e0c.md)
+
+-   [Maximum Used Storage \(in MB\)](admin-and-ops/maximum-used-storage-in-mb-a2e510c.md)
+
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio6a37641afec9497bb76e1063ee73f536__section_fcm_ylr_bcc"/>
+
+## 5 July 2024
+
+
+<table>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top" colspan="2">
+
+**New**
+
+**CMK Encryption Details**
+
+You can now view the encryption details of your customer-managed keys \(CMK\) in the SAP Credential Store user interface. See:
+
+-   [Customer-Managed Keys \(CMK\)](security/customer-managed-keys-cmk-b46d606.md)
+
+-   [View CMK Encryption Details](security/view-cmk-encryption-details-76205b3.md)
+
+
+
+
+</td>
+</tr>
+</table>
 
 
 
@@ -233,7 +305,7 @@ To learn more, see: [Access Control Lists](security/access-control-lists-81a9cb6
 
 You can now configure your service instance so that all your credentials to be encrypted with a customer-managed key \(CMK\) via the *Credential Store* user interface in the SAP BTP cockpit.
 
-To learn more, see: [Customer-Controlled Encryption Keys](security/customer-controlled-encryption-keys-b46d606.md)
+To learn more, see: [Customer-Managed Keys \(CMK\)](security/customer-managed-keys-cmk-b46d606.md)
 
 </td>
 </tr>

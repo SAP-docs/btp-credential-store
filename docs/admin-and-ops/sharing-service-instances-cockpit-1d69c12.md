@@ -1,5 +1,7 @@
 <!-- loio1d69c121307b4077bfefd874ab99f4e4 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Sharing Service Instances - Cockpit
 
 Share and unshare SAP Credential Store service instances by using the SAP BTP cockpit.
@@ -10,7 +12,7 @@ Share and unshare SAP Credential Store service instances by using the SAP BTP co
 
 ## Prerequisites
 
-You've created a service instance for SAP Credential Store. See: [Create a Service Instance](create-a-service-instance-dc5f087.md)
+You've [created a service instance](create-a-service-instance-dc5f087.md) for SAP Credential Store.
 
 
 
@@ -26,23 +28,29 @@ Use the SAP BTP cockpit to share existing SAP Credential Store service instances
 
 ## Make a Service Instance Shareable
 
-1.  From the left-side navigation menu, choose *Services* \> *Instances*.
-2.  Select a Credential Store instance.
-3.  From the left-side navigation menu, choose *Credential Store*.
-4.  Go to the *Service Sharing* horizontal tab.
-5.  Choose the *Share Instance* button. A dialog window opens. There, you can choose how and where to share your instance:
+1.  In the SAP BTP cockpit, navigate to your subaccount and space.
+2.  From the left-side navigation menu, choose *Services* \> *Instances*.
+3.  Select a *Credential Store* instance.
+4.  From the left-side navigation menu, choose *Credential Store*.
+5.  Go to the *Service Sharing* tab.
+6.  Choose the *Share Instance* button. A dialog window opens.
+7.  Choose how and where to share your instance:
     -   *Local* – you will share your service instance in the current region.
     -   *Remote* – you will share your service instance to a different region. You need to enter the correct region technical key \(landscape\). See: [Share, Unshare, and Authorize a Service Instance](share-unshare-and-authorize-a-service-instance-bcd0a59.md) → **Regions**
-    -   *Space* – you will share your service instance with a particular space. Enter the correct space ID.
-    -   *Subaccount* – you will share your service instance with a particular subaccount. Enter the correct subaccount ID.
+    -   *Space* – you will share your service instance with a particular space. Enter the space ID.
+    -   *Subaccount* – you will share your service instance with a particular subaccount. Enter the subaccount ID.
 
-6.  Choose *Share*.
+8.  Choose whether your shared instance to be permanent \(*ON*\) or pending \(*OFF*\).
 
-    > ### Restriction:  
-    > A sharing configuration is valid for 15 minutes and can be used only for 1 instance sharing.
+    > ### Note:  
+    > A permanent share can be consumed many times \(according to service plan\) and can be used only for 1 instance sharing.
+    > 
+    > A pending share is valid for 15 minutes and can be used only for 1 instance sharing.
 
-7.  Above the *Proxy Instances* table, a message box appears, informing you that there is a pending share that hasn't been consumed yet.
-8.  Click on the box to see more details and further recommended actions.
+9.  Choose *Share*.
+10. Above the *Proxy Instances* table, a message box appears, informing you that there is a pending or a permanent share that hasn't been consumed yet.
+11. Open the message box to see more details.
+12. Copy the JSON code and save it in a convenient text file.
 
 
 
@@ -50,13 +58,19 @@ Use the SAP BTP cockpit to share existing SAP Credential Store service instances
 
 ## Create a Proxy Service Instance
 
-1.  Copy the JSON parameters from the last step above.
-2.  Navigate to the target space or subaccount where you want to create the proxy service instance.
-3.  From the left-side navigation menu, choose *Instances*.
-4.  Create a new service instance of type **Credential Store**, with plan **proxy**. Enter a name, for example: **myproxycredstore**
-5.  Choose *Next*.
-6.  Paste the copied JSON properties \(from *step 1*\), and choose *Create*.
-7.  Go back to your original shared service instance. The newly created share is displayed in the *Proxy Instances* table. You can click on the instance ID to see more details about it.
+1.  Navigate to the target space or subaccount where you want to create a proxy service instance.
+2.  From the left-side navigation menu, choose *Services* \> *Instances*.
+3.  Create a new service instance of type **Credential Store**, plan **proxy**, and enter a name.
+4.  Choose *Next*.
+5.  Provide metadata about the previously created shared service instance. You can do this in two ways:
+    -   From the *Form* tab – enter the GUID of the shared instance. You can find it in the JSON code that you have previously copied. In case your shared instance resides in a different region, enter the region's technical name as well.
+
+    -   From the *JSON* tab – replace the default JSON code with the one you have copied.
+
+
+6.  Choose *Create*.
+7.  Go back to your original service instance and open tab *Service Sharing*. The newly created share is displayed in the *Proxy Instances* table.
+8.  Choose the instance ID to see more details about it.
 
 
 
@@ -64,8 +78,8 @@ Use the SAP BTP cockpit to share existing SAP Credential Store service instances
 
 ## Unsharing a Service Instance
 
-1.  From the *Proxy Instances* table, choose a share you don't need anymore and click ![](images/Unshare_a_Service_Instance_328c1d4.png)*Unshare*.
-2.  Confirm the prompt dialog by choosing *OK*.
+1.  From the *Proxy Instances* table, go to a share you don't need anymore, and choose <span style="color:#007cc0;"><span class="SAP-icons-V5"></span></span> \(Unshare\).
+2.  Choose *OK*.
 
     > ### Note:  
     > Unsharing a proxy service instance will not delete it but will only remove its access permissions to the primary instance.

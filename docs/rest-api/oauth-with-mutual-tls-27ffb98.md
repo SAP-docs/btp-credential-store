@@ -1,6 +1,6 @@
 <!-- loio27ffb98acd7349c0bfd46bc777a5f31c -->
 
-# OAuth with Mutual TLS Authentication
+# OAuth with Mutual TLS
 
 Calls to the SAP Credential Store REST API for applications are authenticated via OAuth client credentials flow via TLS.
 

@@ -10,7 +10,7 @@ Bind a SAP Credential Store instance to your Cloud Foundry or Kyma application t
 
 ## Prerequisites
 
--   You've created a service instance for SAP Credential Store. See: [Create a Service Instance](create-a-service-instance-dc5f087.md)
+-   You've [created a service instance](create-a-service-instance-dc5f087.md) for SAP Credential Store.
 
 -   You've downloaded and installed the [Cloud Foundry command line interface](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/4ef907afb1254e8286882a2bdef0edf4.html) \(cf CLI\).
 
@@ -127,7 +127,7 @@ To find them in the cockpit, open *Environment Variables* and see:
 **Related Information**  
 
 
-[Enable, Disable and Delete Service Bindings](enable-disable-and-delete-service-bindings-eb06422.md "Manage the bindings related to your SAP Credential Store service instance.")
+[Enable, Disable and Delete a Service Binding](enable-disable-and-delete-a-service-binding-eb06422.md "Manage the service bindings related to your SAP Credential Store service instances.")
 
 [Access Control Lists](../security/access-control-lists-81a9cb6.md "In SAP Credential Store, access control lists define the access (assignment) of a service binding to particular groups of credentials on a subaccount or namespace level.")
 

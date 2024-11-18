@@ -24,7 +24,7 @@ SAP Credential Store is a technical service that is not intended to store any pe
 Applications are responsible for the lifecycle of the data stored in the SAP Credential Store associated with an account.
 
 > ### Note:  
-> The applications must delete this data upon account termination. The REST API of the SAP Credential Store provides a method to delete all credentials stored in a namespace. For more information, see: [REST API Reference](https://api.sap.com/api/credentials_api_for_applications/resource) → **Delete all credentials in a namespace**
+> The applications must delete this data upon account termination. The REST API of the SAP Credential Store provides a method to delete all credentials stored in a namespace. For more information, see: [REST API Reference](https://api.sap.com/api/credentials_api_for_applications/resource/Credentials) → **Delete all credentials in a namespace**
 
 
 

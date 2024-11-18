@@ -62,6 +62,18 @@ free
 <tr>
 <td valign="top">
 
+trial
+
+</td>
+<td valign="top">
+
+1
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 standard
 
 </td>

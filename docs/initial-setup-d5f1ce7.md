@@ -26,7 +26,7 @@ For an overview of the required steps, see:
 
 ## Context
 
-To enable SAP Credential Store for your subaccount, you can get started with the service by using the standard procedures for SAP BTP Cloud Foundry or Kyma environment.
+To enable SAP Credential Store for your subaccount, you can get started with the service by using the standard procedures for SAP BTP, Cloud Foundry or Kyma environment.
 
 
 
@@ -34,13 +34,20 @@ To enable SAP Credential Store for your subaccount, you can get started with the
 
 1.  Go to the SAP BTP cockpit, navigate to your global account and choose your subaccount. See: [Managing Subaccounts Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/55d0b6d8b96846b8ae93b85194df0944.html)
 
-2.  From the left-side navigation menu, choose *Entitlements* \> *Service Assignments* to manage the service parameters and plans entitled to your subaccount. See: [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html)
+2.  From the left-side navigation menu, choose *Entitlements*.
 
-3.  Go to your Cloud Foundry or Kyma space.
+3.  To manage your SAP Credential Store service parameters and plans entitled to your account, choose*Edit*. For more information, see: [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html)
 
-4.  From the left-side navigation menu, choose *Services* \> *Service Marketplace*.
+    > ### Note:  
+    > -   If you have a trial account, your assigned service plans are **trial** and **proxy**.
+    > 
+    > -   If you have a productive account, your service plans are **free**, **standard**, and **proxy**.
 
-5.  Choose the *Credential Store* tile.
+4.  Go to your Cloud Foundry or Kyma space.
+
+5.  From the left-side navigation menu, choose *Services* \> *Service Marketplace*.
+
+6.  Choose the *Credential Store* tile.
 
 
 

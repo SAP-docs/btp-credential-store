@@ -1,5 +1,7 @@
 <!-- loio1f383beec1204ddb8a2f2c7b9e69a70a -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Set Filters for Credentials and Namespaces
 
 Filter your credentials and namespaces by using five different match criteria types.
@@ -10,7 +12,7 @@ Filter your credentials and namespaces by using five different match criteria ty
 
 ## Prerequisites
 
--   You've created a service instance for SAP Credential Store. See: [Create a Service Instance](create-a-service-instance-dc5f087.md)
+-   You've [created a service instance](create-a-service-instance-dc5f087.md) for SAP Credential Store.
 
 -   You've created at least one namespace. See: [Create a Namespace](create-and-delete-a-namespace-401b20c.md) 
 
@@ -32,24 +34,26 @@ If you have created more than 10 namespaces, or more than 100 credentials of a s
 -   Does not equal: **!<search-string\>**
 
 
-> ### Note:  
-> If the search string contains invalid characters, the *Go* button will be disabled.
-
 
 
 ## Procedure
 
-1.  From the left-side navigation menu, choose *Services* \> *Instances*.
+1.  In the SAP BTP cockpit, navigate to your subaccount and space.
 
-2.  Select a *Credential Store* instance.
+2.  From the left-side navigation menu, choose *Services* \> *Instances*.
 
-3.  From the left-side navigation menu, choose *Credential Store*.
+3.  Select a *Credential Store* instance.
 
-4.  In the default table are listed all the namespaces you have already created.
+4.  From the left-side navigation menu, choose <span style="color:#ffffff;"><span class="SAP-icons-V5"></span></span> \(Credential Store\).
+
+5.  In the default table are listed all the namespaces you have already created.
 
     To filter for a particular namespace, set the filter criteria in *Search* area, and choose *Go*.
 
-5.  If you go on *Credential* level, you can set filters for passwords and keys too.
+    > ### Note:  
+    > If the search string contains invalid characters, the *Go* button will be inactive.
+
+6.  If you go on *Credential* level, you can set filters for passwords and keys too.
 
 
 **Related Information**  

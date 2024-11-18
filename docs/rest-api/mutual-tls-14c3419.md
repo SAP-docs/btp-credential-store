@@ -1,6 +1,6 @@
 <!-- loio14c34193b59c4d7da2f0a3d506f5b990 -->
 
-# Mutual TLS Authentication
+# Mutual TLS
 
 Calls to the SAP Credential Store REST API for applications are authenticated via mutual TLS authentication.
 

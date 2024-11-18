@@ -23,7 +23,7 @@ SAP Credential Store uses namespaces to logically isolate data stored in a servi
 > ### Note:  
 > The default validity of a binding or service key with `basic` authentication is **60** days.
 
-All payloads are encrypted \(or have to be encrypted\) when *Basic Authentication* is used. The encryption is based on JWE compact serialization format. For more information, see [Encrypting Payloads](encrypting-payloads-7202e7a.md)
+All payloads are encrypted \(have to be encrypted\) when *Basic Authentication* is used. The encryption is based on JWE compact serialization format. For more information, see [Encrypting Payloads](encrypting-payloads-7202e7a.md)
 
 
 

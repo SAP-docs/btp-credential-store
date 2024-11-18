@@ -1,5 +1,7 @@
 <!-- loioa5fc84d684494df5ae7b7ee8737a9995 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Manage Service Binding Validity
 
 Extend the validity date of service bindings that are about to expire soon.
@@ -10,7 +12,7 @@ Extend the validity date of service bindings that are about to expire soon.
 
 ## Prerequisites
 
--   You've created a service instance for SAP Credential Store. See: [Create a Service Instance](create-a-service-instance-dc5f087.md)
+-   You've [created a service instance](create-a-service-instance-dc5f087.md) for SAP Credential Store.
 
 -   You've created one or more service bindings. See [Bind a Service Instance](bind-a-service-instance-0aead0c.md) and [Create a Service Key](create-download-and-delete-a-service-key-7502e17.md).
 
@@ -55,32 +57,34 @@ Bindings based on `mtls` and `oath:mtls` authentication use certificates whose m
 
 ## Procedure
 
-1.  From the left-side navigation menu, choose *Services* \> *Instances*.
+1.  In the SAP BTP cockpit, navigate to your subaccount and space.
 
-2.  Select a *Credential Store* instance.
+2.  From the left-side navigation menu, choose *Services* \> *Instances*.
 
-3.  From the left-side navigation menu, choose *Credential Store*.
+3.  Select a *Credential Store* instance.
 
-4.  Go to the *Bindings* tab, where all your created service bindings are listed along with their current statuses.
+4.  From the left-side navigation menu, choose <span style="color:#ffffff;"><span class="SAP-icons-V5"></span></span> \(Credential Store\).
 
-5.  Go to filter tab *All Expirations* and choose *Expiring in a Week and Expired*.
+5.  Go to the *Bindings* tab, where all your created service bindings are listed along with their current statuses.
+
+6.  Go to filter tab *All Expirations* and choose *Expiring in a Week and Expired*.
 
     The table displays all bindings that are expiring within 7 days as well as bindings that are already expired.
 
-6.  Select a binding to check its details.
+7.  Select a binding to check its details.
 
-7.  Choose *Extend Validity*. One of the following messages appears on your screen:
+8.  Choose *Extend Validity*. One of the following messages appears on your screen:
 
     -   "*Binding expiration date successfully extended*" – that means the validity of your binding is successfully extended with 3 days after its initial expiration date.
 
     -   "*Binding validity can be extended only once*" – that means the validity of your binding has already been extended before so you can't extend it anymore.
 
 
-8.  Choose *Close*.
+9.  Choose *Close*.
 
 
 **Related Information**  
 
 
-[Enable, Disable and Delete Service Bindings](enable-disable-and-delete-service-bindings-eb06422.md "Manage the bindings related to your SAP Credential Store service instance.")
+[Enable, Disable and Delete a Service Binding](enable-disable-and-delete-a-service-binding-eb06422.md "Manage the service bindings related to your SAP Credential Store service instances.")
 

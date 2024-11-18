@@ -23,7 +23,7 @@ See:
 <tr>
 <td valign="top">
 
-A reached time threshold for credential bindings that are about to expire
+Threshold is reached for credential bindings that are about to expire \(in <number\> days\)
 
 </td>
 <td valign="top">
@@ -35,7 +35,7 @@ A reached time threshold for credential bindings that are about to expire
 <tr>
 <td valign="top">
 
-A reached threshold for a number of credential bindings per service instance
+Threshold is reached for a number of credential bindings per service instance
 
 </td>
 <td valign="top">
@@ -47,7 +47,7 @@ A reached threshold for a number of credential bindings per service instance
 <tr>
 <td valign="top">
 
-A reached threshold for a number of credentials per service instance
+Threshold is reached for a number of credentials per service instance
 
 </td>
 <td valign="top">
@@ -59,7 +59,7 @@ A reached threshold for a number of credentials per service instance
 <tr>
 <td valign="top">
 
-A reached threshold for a number of requests sent by SAP Credential Store for the previous day
+Threshold is reached for a number of requests sent by SAP Credential Store for the previous day
 
 </td>
 <td valign="top">
@@ -71,7 +71,7 @@ A reached threshold for a number of requests sent by SAP Credential Store for th
 <tr>
 <td valign="top">
 
-A reached threshold for a storage size \(in MB\) per service instance
+Threshold is reached for a storage size \(in MB\) per service instance
 
 </td>
 <td valign="top">

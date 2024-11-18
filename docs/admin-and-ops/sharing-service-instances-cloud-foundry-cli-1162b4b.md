@@ -10,7 +10,7 @@ Share and unshare SAP Credential Store service instances by using standard Cloud
 
 ## Prerequisites
 
--   You've created a service instance for SAP Credential Store. See: [Create a Service Instance](create-a-service-instance-dc5f087.md)
+-   You've [created a service instance](create-a-service-instance-dc5f087.md) for SAP Credential Store.
 
 -   You've downloaded and installed the [Cloud Foundry command line interface](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/4ef907afb1254e8286882a2bdef0edf4.html) \(cf CLI\).
 

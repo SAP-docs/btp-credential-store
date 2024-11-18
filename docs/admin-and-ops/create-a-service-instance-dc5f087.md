@@ -37,15 +37,21 @@ You can create a service instance in two ways:
 
 ## Procedure
 
-1.  From the *Credential Store* tile, choose *Create*.
+1.  Select the *Credential Store* tile and then choose *Create*.
 
-2.  Select a service plan \(**free**, **standard**, or **proxy**\).
+    > ### Tip:  
+    > Alternatively, you can go to your space, navigate to *Services* \> *Service Marketplace*, and from the upper right corner choose *Create* \> *Service Instance*.
 
-3.  Enter a name for your service instance. For example: **mycredstore**
+2.  Select a service plan \(*trial*, *free*, *standard*, or *proxy*\).
+
+    > ### Note:  
+    > Use the *proxy* plan only if you want to share your service instance with other subaccounts or spaces. See: [Create a Proxy Service Instance](https://help.sap.com/docs/credential-store/sap-credential-store/sharing-service-instances-cockpit?version=Cloud#create-a-proxy-service-instance)
+
+3.  Enter a name for your service instance.
 
 4.  Choose *Next* to set additional parameters, or *Create* to directly create your service instance.
 
-5.  To see your newly created instance, choose ![](images/Actions_62e6f79.png) \(*Actions*\) and then *Instances and Subscriptions*.
+5.  You can see your newly created instance in your space, by navigating to *Services* \> *Instances*.
 
 6.  As a next step, you can bind your service instance to an application. See: [Bind a Service Instance](bind-a-service-instance-0aead0c.md)
 
