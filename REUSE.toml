@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "btp-credential-store"
+SPDX-PackageSupplier = "Gergana Tsakova (gergana.tsakova@sap.com)"
+SPDX-PackageDownloadLocation = "https://github.com/sap-docs/btp-credential-store"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2023 SAP SE or an SAP affiliate company and SAP-docs/btp-credential-store contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
