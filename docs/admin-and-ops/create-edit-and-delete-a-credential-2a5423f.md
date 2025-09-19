@@ -33,7 +33,7 @@ Follow the steps below to create one or multiple credentials for a particular na
 
 3.  Select a *Credential Store* instance.
 
-4.  From the left-side navigation menu, choose <span style="color:#ffffff;"><span class="SAP-icons-V5"></span></span> \(Credential Store\).
+4.  From the left-side navigation menu, choose <span style="color:#666666;"><span class="SAP-icons-V5"></span></span> \(Credential Store\).
 
 5.  Choose a namespace. The currently available credentials are listed in a table.
 

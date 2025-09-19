@@ -44,7 +44,7 @@ If you have created more than 10 namespaces, or more than 100 credentials of a s
 
 3.  Select a *Credential Store* instance.
 
-4.  From the left-side navigation menu, choose <span style="color:#ffffff;"><span class="SAP-icons-V5"></span></span> \(Credential Store\).
+4.  From the left-side navigation menu, choose <span style="color:#666666;"><span class="SAP-icons-V5"></span></span> \(Credential Store\).
 
 5.  In the default table are listed all the namespaces you have already created.
 

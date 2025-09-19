@@ -36,7 +36,7 @@ To manage their status, follow the steps below.
 
 3.  Select a *Credential Store* instance.
 
-4.  From the left-side navigation menu, choose <span style="color:#ffffff;"><span class="SAP-icons-V5"></span></span> \(Credential Store\).
+4.  From the left-side navigation menu, choose <span style="color:#666666;"><span class="SAP-icons-V5"></span></span> \(Credential Store\).
 
 5.  Go to the *Bindings* tab, where all your created service bindings are listed along with their current statuses.
 

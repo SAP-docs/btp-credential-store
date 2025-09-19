@@ -33,7 +33,7 @@ Follow the steps below to create one or multiple namespaces for your service ins
 
 3.  Select a *Credential Store* instance.
 
-4.  From the left-side navigation menu, choose <span style="color:#ffffff;"><span class="SAP-icons-V5"></span></span> \(Credential Store\).
+4.  From the left-side navigation menu, choose <span style="color:#666666;"><span class="SAP-icons-V5"></span></span> \(Credential Store\).
 
 5.  In the default table are listed all the namespaces you have already created, if any. To create a new one, choose *Create Namespace*.
 

@@ -48,7 +48,7 @@ See also: [Key Management Service: Glossary](https://help.sap.com/docs/sap-data-
 
 3.  Select a *Credential Store* instance.
 
-4.  From the left-side navigation menu, choose <span style="color:#ffffff;"><span class="SAP-icons-V5"></span></span> \(Credential Store\).
+4.  From the left-side navigation menu, choose <span style="color:#666666;"><span class="SAP-icons-V5"></span></span> \(Credential Store\).
 
 5.  Choose a namespace.
 
