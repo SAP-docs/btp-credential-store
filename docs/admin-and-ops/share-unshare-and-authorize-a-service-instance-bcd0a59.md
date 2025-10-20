@@ -157,6 +157,23 @@ Amazon Web Services \(AWS\)
 </td>
 <td valign="top">
 
+South Korea (Seoul)
+
+</td>
+<td valign="top">
+
+`cf-ap12`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Amazon Web Services \(AWS\)
+
+</td>
+<td valign="top">
+
 Brazil \(São Paulo\)
 
 </td>
