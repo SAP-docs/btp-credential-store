@@ -12,7 +12,8 @@ Enable SAP Credential Store for your Cloud Foundry or Kyma environment.
 
 -   You have set up a global account and at least one subaccount on SAP BTP.
 -   Your global account supports the consumption-based commercial model. See: [Commercial Models and Metering](https://help.sap.com/docs/cloud-portal-service/sap-cloud-portal-service-on-cloud-foundry/commercial-models-and-metering)
--   You have a space in your Cloud Foundry or Kyma subaccount and **Space Developer** role for the respective environment.
+-   You have enabled [Cloud Foundry Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/cloud-foundry-environment?version=Cloud) or [Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-environment?version=Cloud) in SAP BTP.
+-   If you're using Cloud Foundry, you need role **Space Developer** \(read-write access\) or **Space Supporter** \(read-only access\).
 
 For an overview of the required steps, see:
 

@@ -118,6 +118,125 @@ Region Technical Key
 <tr>
 <td valign="top">
 
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+UAE \(Dubai\)
+
+</td>
+<td valign="top">
+
+`cf-ae01`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+<td valign="top">
+
+`cf-ap01`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+</td>
+<td valign="top">
+
+`cf-eu01`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+Europe \(Rot\)
+
+</td>
+<td valign="top">
+
+`cf-eu02`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+Japan \(Tokyo\)
+
+</td>
+<td valign="top">
+
+`cf-jp01`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+US \(Sterling\)
+
+</td>
+<td valign="top">
+
+`cf-us01`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+US West \(Colorado\)
+
+</td>
+<td valign="top">
+
+`cf-us02`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Amazon Web Services \(AWS\)
 
 </td>
@@ -146,6 +265,23 @@ Singapore
 <td valign="top">
 
 `cf-ap11`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Amazon Web Services \(AWS\)
+
+</td>
+<td valign="top">
+
+South Korea \(Seoul\)
+
+</td>
+<td valign="top">
+
+`cf-ap12`
 
 </td>
 </tr>
@@ -208,6 +344,40 @@ Amazon Web Services \(AWS\)
 </td>
 <td valign="top">
 
+Europe \(Frankfurt\)
+
+</td>
+<td valign="top">
+
+`cf-eu11`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Amazon Web Services \(AWS\)
+
+</td>
+<td valign="top">
+
+Europe \(Milan\)
+
+</td>
+<td valign="top">
+
+`cf-eu10`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Amazon Web Services \(AWS\)
+
+</td>
+<td valign="top">
+
 Japan \(Tokyo\)
 
 </td>
@@ -237,6 +407,40 @@ US East \(VA\)
 <tr>
 <td valign="top">
 
+Amazon Web Services \(AWS\)
+
+</td>
+<td valign="top">
+
+US West \(OR\)
+
+</td>
+<td valign="top">
+
+`cf-us11`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+<td valign="top">
+
+`cf-ap20`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Microsoft Azure
 
 </td>
@@ -248,6 +452,57 @@ Singapore
 <td valign="top">
 
 `cf-ap21`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
+
+</td>
+<td valign="top">
+
+`cf-br20`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+Canada Central \(Toronto\)
+
+</td>
+<td valign="top">
+
+`cf-ca20`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+Switzerland \(Zurich\)
+
+</td>
+<td valign="top">
+
+`cf-ch20`
 
 </td>
 </tr>
@@ -322,6 +577,210 @@ US East \(VA\)
 <tr>
 <td valign="top">
 
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+US East \(Virginia\)
+
+</td>
+<td valign="top">
+
+`cf-us22`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Platform
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+<td valign="top">
+
+`cf-ap30`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Platform
+
+</td>
+<td valign="top">
+
+Singapore
+
+</td>
+<td valign="top">
+
+`cf-ap31`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Platform
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
+
+</td>
+<td valign="top">
+
+`cf-br30`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Platform
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+</td>
+<td valign="top">
+
+`cf-eu30`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Platform
+
+</td>
+<td valign="top">
+
+Europe \(Netherlands\)
+
+</td>
+<td valign="top">
+
+`cf-eu31`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Platform
+
+</td>
+<td valign="top">
+
+Israel \(Tel Aviv\)
+
+</td>
+<td valign="top">
+
+`cf-il30`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Platform
+
+</td>
+<td valign="top">
+
+India \(Mumbai\)
+
+</td>
+<td valign="top">
+
+`cf-in30`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Platform
+
+</td>
+<td valign="top">
+
+Japan \(Osaka\)
+
+</td>
+<td valign="top">
+
+`cf-jp30`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Platform
+
+</td>
+<td valign="top">
+
+Japan \(Tokyo\)
+
+</td>
+<td valign="top">
+
+`cf-jp31`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Platform
+
+</td>
+<td valign="top">
+
+KSA \(Dammam\)
+
+</td>
+<td valign="top">
+
+`cf-sa30`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud Platform
+
+</td>
+<td valign="top">
+
+KSA \(Dammam\)
+
+</td>
+<td valign="top">
+
+`cf-sa31`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Google Cloud Platform
 
 </td>
@@ -339,19 +798,24 @@ US Central \(IA\)
 <tr>
 <td valign="top">
 
-SAP
+Google Cloud Platform
 
 </td>
 <td valign="top">
 
-Europe \(Rot\)
+US East \(Virginia\)
 
 </td>
 <td valign="top">
 
-`cf-eu1`
+`cf-us30`
 
 </td>
 </tr>
 </table>
+
+**Related Information**  
+
+
+[Discovery Center: Credential Store](https://discovery-center.cloud.sap/index.html#/serviceCatalog/credential-store?tab=service_plan&region=all)
 
