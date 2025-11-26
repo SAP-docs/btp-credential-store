@@ -276,7 +276,7 @@ Amazon Web Services \(AWS\)
 </td>
 <td valign="top">
 
-South Korea \(Seoul\)
+South Korea (Seoul)
 
 </td>
 <td valign="top">
@@ -344,7 +344,7 @@ Amazon Web Services \(AWS\)
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)
+Europe \(Frankfurt\)    
 
 </td>
 <td valign="top">
@@ -366,7 +366,7 @@ Europe \(Milan\)
 </td>
 <td valign="top">
 
-`cf-eu10`
+`cf-eu13`
 
 </td>
 </tr>
@@ -808,7 +808,7 @@ US East \(Virginia\)
 </td>
 <td valign="top">
 
-`cf-us30`
+`cf-us32`
 
 </td>
 </tr>
