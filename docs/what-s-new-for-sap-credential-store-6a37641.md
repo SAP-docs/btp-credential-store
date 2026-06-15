@@ -8,6 +8,32 @@ To check the latest release notes for SAP Credential Store, go to: [What's New f
 
 
 
+## 19 March 2026
+
+
+<table>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top" colspan="2">
+
+**New**
+
+**Credential Replication**
+
+You can now replicate individual credentials between different regions within the same SAP BTP global account. This operation can preserve the credentials in case of a disaster event in one of the regions.
+
+To learn how, see: [Replicate Credentials](admin-and-ops/replicate-credentials-e829c6a.md)
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loio6a37641afec9497bb76e1063ee73f536__section_hhs_kvg_hdc"/>
 
 ## 17 October 2024

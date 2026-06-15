@@ -42,11 +42,11 @@ Restore individual credentials from one or more backup namespaces.
 
 7.  From the *Namespace* table, find the backup you need.
 
-8.  Then choose the particular type of credential you need to restore \(password, key, or keyring\).
+8.  Choose the particular type of credential you need to restore \(password, key, or keyring\).
 
-9.  A table with the relevant credentials of this type is displayed.
+    A table with the relevant credentials of this type is displayed.
 
-10. Select the one you have lost and choose *Restore Credential*. The open dialog prompts you to choose how to restore this credential:
+9.  Select the one you have lost and choose *Restore Credential*. The open dialog prompts you to choose how to restore this credential:
 
     -   If you directly choose *Restore* and there is a credential with the same name in your current namespace, an error message appears asking you to select *Overwrite*. If there is no credential overlap, the lost credential will be restored successfully.
 
@@ -55,6 +55,6 @@ Restore individual credentials from one or more backup namespaces.
 
     Message "*Credential was restored successfully*" appears at the bottom of your screen.
 
-11. If you need to restore another credential, choose the main *Restore* button \(see **step 5**\) and repeat the same procedure.
+10. If you need to restore another credential, choose the main *Restore* button \(see **step 5**\) and repeat the same procedure.
 
 

@@ -132,3 +132,8 @@ In a scenario where the whole instance is deleted, you should create a new insta
 </tr>
 </table>
 
+**Related Information**  
+
+
+[Replicate Credentials](replicate-credentials-e829c6a.md "You can replicate individual credentials between different regions. This operation can preserve the credentials in case of a disaster event in one of the regions.")
+
