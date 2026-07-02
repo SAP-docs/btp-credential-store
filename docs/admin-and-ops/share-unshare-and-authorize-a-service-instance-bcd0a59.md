@@ -20,6 +20,24 @@ The main characteristics of the sharing mechanism supported by SAP Credential St
 > ### Restriction:  
 > A sharing configuration is valid for 15 minutes and can be used only for 1 instance sharing.
 
+> ### Recommendation:  
+> If you are using Kyma, sharing an instance is recommended in the following cases:
+> 
+> -   **Access to the SAP Credential Store UI**
+> 
+>     The UI is available only in Cloud Foundry, as permissions are based on Cloud Foundry space roles. For more information, see [Initial Setup](../initial-setup-d5f1ce7.md).
+> 
+> -   **Avoiding issues with instance deletion**
+> 
+>     In Kyma, once the deletion of a service instance is initiated, it cannot be stopped and continues until completion. This behavior may conflict with the protections implemented by SAP Credential Store. Using a proxy instance helps avoid this, as it acts only as a connection to the origin instance and can be deleted without issues.
+> 
+> 
+> Recommended setup:
+> 
+> 1.  Create a standard service instance in a Cloud Foundry space.
+> 2.  Share the Cloud Foundry service instance with the Kyma subaccount.
+> 3.  Create a proxy service instance in Kyma.
+
 You can share SAP Credential Store service instances in two ways, by using:
 
 -   [SAP BTP Cockpit](sharing-service-instances-cockpit-1d69c12.md)

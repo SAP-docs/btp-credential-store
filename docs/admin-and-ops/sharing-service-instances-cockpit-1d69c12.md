@@ -29,12 +29,19 @@ Use the SAP BTP cockpit to share existing SAP Credential Store service instances
 ## Make a Service Instance Shareable
 
 1.  In the SAP BTP cockpit, navigate to your subaccount and space.
+
 2.  From the left-side navigation menu, choose *Services* \> *Instances*.
+
 3.  Select a *Credential Store* instance.
+
 4.  From the left-side navigation menu, choose *Credential Store*.
+
 5.  Go to the *Service Sharing* tab.
+
 6.  Choose the *Share Instance* button. A dialog window opens.
+
 7.  Choose how and where to share your instance:
+
     -   *Local* – you will share your service instance in the current region.
     -   *Remote* – you will share your service instance to a different region. You need to enter the correct region technical key \(landscape\). See: [Share, Unshare, and Authorize a Service Instance](share-unshare-and-authorize-a-service-instance-bcd0a59.md) → **Regions**
     -   *Space* – you will share your service instance with a particular space. Enter the space ID.
@@ -47,10 +54,32 @@ Use the SAP BTP cockpit to share existing SAP Credential Store service instances
     > 
     > A pending share is valid for 15 minutes and can be used only for 1 instance sharing.
 
-9.  Choose *Share*.
-10. Above the *Proxy Instances* table, a message box appears, informing you that there is a pending or a permanent share that hasn't been consumed yet.
-11. Open the message box to see more details.
-12. Copy the JSON code and save it in a convenient text file.
+9.  \(Optional\) In the *Authorization* field, provide valid JSON to define permissions when sharing an instance. This allows you to restrict proxy instances to specific actions.
+
+    > ### Example:  
+    > The following example limits proxy instances to only read and list credentials in the *generalapps* namespace:
+    > 
+    > > ### Code Syntax:  
+    > > ```
+    > > 
+    > > {
+    > >   "namespace_permissions": {
+    > >     "generalapps": [
+    > >       "read",
+    > >       "list"
+    > >     ]
+    > >   }
+    > > }
+    > > ```
+
+10. Choose *Share*.
+
+11. Above the *Proxy Instances* table, a message box appears, informing you that there is a pending or a permanent share that hasn't been consumed yet.
+
+12. Open the message box to see more details.
+
+13. Copy the JSON code and save it in a convenient text file.
+
 
 
 
